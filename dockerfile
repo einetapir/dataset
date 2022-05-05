@@ -1,4 +1,4 @@
 FROM ubuntu
 
-COPY /indata.json ./indata.json
-COPY /outdata.json ./outdata.json
+COPY /indata.json /data/indata.json
+COPY /outdata.json /data/outdata.json
